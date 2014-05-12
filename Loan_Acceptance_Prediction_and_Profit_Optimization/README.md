@@ -21,9 +21,9 @@ b. No overfitting
 c. Should generate a realistic prediction
 ```
 
-(2) By using the model constructed in (1) to find the optimal rates for the records in the `opt.csv` file. Then 
+(2) By using the model constructed in (1) to find the optimal rate for the records in the `opt.csv` file. Then 
 ```
-a. Find a single rate that maximizes the bank’s expected profit using a simple for-loop algorithm.
+a. Find an optimal rate using a simple for-loop algorithm.
 b. Segment the customers into two groups based on their price sensitivity using K-means clustering algorithm.
 c. Visualiz the expected profit as a function of price and the two groups of customers using `matplotlib` in Python. 
 ```
