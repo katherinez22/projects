@@ -18,7 +18,7 @@ import collections
 # Part 1: Load the data from the csv file
 X = []
 Y = []
-with open('/Users/Katherine/PycharmProjects/630TM_HW1/letters_training.csv', 'rU') as csvfile:
+with open('letters_training.csv', 'rU') as csvfile:
     reader = csv.reader(csvfile)
     i = 0
     for row in reader:
@@ -62,7 +62,7 @@ else:
 # Part 3: Check whether the classifier predicts a handwritten '9'
 # Read the file 9_54.txt and convert the row-major ordered matrix into a one-dimensional array
 Z = []
-with open('/Users/Katherine/PycharmProjects/630TM_HW1/9_54.txt', 'r') as f:
+with open('9_54.txt', 'r') as f:
     lines = f.read()
     Z.append(lines.replace('\r\n', ''))
 Z = np.array(map(int, ','.join(Z[0]).split(',')))
